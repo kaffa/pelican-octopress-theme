@@ -17,11 +17,13 @@ Octopress Theme for Pelican 中文版
 
 3. 更改了主题的名字为 pelican-octopress-theme-cn
 
-由于 pelican 以及 pelican-octopress-theme 的开发并不活跃，所以我这个分支以后也暂并未考虑合并回原来的主分支。
+由于 pelican 以及 pelican-octopress-theme 的开发并不活跃，所以我这个分支也暂并未考虑实现多语后合并回原来的主分支。
 
 案例地址：
+
 1. kaFFa fORest: https://kaffa.im
-2. 期待你的博客使用，如果你 issue 和  pull request，
+
+2. 期待你的博客使用，如果你 issue 和  pull request
 
 
 此下为原作者介绍：
