@@ -1,3 +1,24 @@
+Octopress Theme for Pelican 中文版
+======================================================
+我在我的博客中使用了此主题，但我发现此主题有几个地方不适合中文显示，本来一个更好的做法可以维护一张翻译表，并使用 Ruby 生成的多语言版本，很遗憾我没有这个时间。
+
+于是我直接对此主题进行了以下更改：
+
+1. 更改了默认字体::
+
+.. code-block:: sass
+
+  $sans: "Microsoft YaHei", "Optima", sans-serif;
+  $serif: "Microsoft YaHei", "Baskerville", serif;
+  $mono: "Console", "Courier", monospace;
+  $heading-font-family: "Microsoft YaHei", "Georgia", "Verdana", sans-serif;
+
+2. 翻译了 HTML 标签中硬编码的英文为中文。
+
+3. 更改了主题的名字为 pelican-octopress-theme-cn
+
+由于 pelican 以及此主题的开发并不活跃，所以这个分支以后也暂并未考虑合并回原来的主分支。此下为原作者介绍。
+
 Octopress Theme for Pelican
 ===========================
 

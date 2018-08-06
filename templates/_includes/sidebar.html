@@ -1,11 +1,11 @@
 <aside class="sidebar">
   {% if SIDEBAR_IMAGE %}
   <section>
-	  <img src="{{ SITEURL }}/{{ SIDEBAR_IMAGE }}" alt="{{ SIDEBAR_IMAGE_ALT}}" width="{{SIDEBAR_IMAGE_WIDTH}}"/> 
+	  <img src="{{ SITEURL }}/{{ SIDEBAR_IMAGE }}" alt="{{ SIDEBAR_IMAGE_ALT}}" width="{{SIDEBAR_IMAGE_WIDTH}}"/>
   </section>
   {% endif %}
   <section>
-    <h1>Recent Posts</h1>
+    <h1>最近博文</h1>
     <ul id="recent_posts">
       {% for article in articles[:5] %}
       <li class="post">
@@ -16,18 +16,18 @@
   </section>
   {% if categories %}
   <section>
-      
-    <h1>Categories</h1>
+
+    <h1>分类</h1>
     <ul id="recent_posts">
       {% for category, articles in categories %}
         <li><a href="{{ SITEURL }}/{{ category.url }}">{{ category }}</a></li>
       {% endfor %}
     </ul>
   </section>
-  {% endif %} 
+  {% endif %}
 
   <section>
-  <h1>Tags</h1>
+  <h1>标签</h1>
   {% for tag, article in tags %}
     <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>{% if not loop.last %},{% endif %}
   {% endfor %}

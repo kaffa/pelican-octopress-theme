@@ -1,10 +1,10 @@
 {% extends "base.html" %}
-{% block title %}Author: {{ author }} &mdash; {{ SITENAME }}{% endblock %}
+{% block title %}作者: {{ author }} &mdash; {{ SITENAME }}{% endblock %}
 {% block content %}
 <div>
 	<article role="article">
     	<header>
-    		<h1 class="entry-title">Author: {{ author }}</h1>
+    		<h1 class="entry-title">作者: {{ author }}</h1>
     	</header>
 
     	<div id="blog-archives">
@@ -20,7 +20,7 @@
                             <span class="year">{{ article.date.strftime('%Y') }}</span>
                         </time>
                         <footer>
-                            <span class="categories">posted in
+                            <span class="categories">发布 在
                                 <a class='category' href='{{ SITEURL }}/{{ article.category.url }}'>{{ article.category }}</a>
                             </span>
 			    {% include '_includes/article_stats.html' %}
