@@ -10,7 +10,7 @@ Octopress Theme for Pelican 中文版
 
   $sans: "Microsoft YaHei", "Optima", sans-serif;
   $serif: "Microsoft YaHei", "Baskerville", serif;
-  $mono: "Console", "Courier", monospace;
+  $mono: "Consolas", "Courier", monospace;
   $heading-font-family: "Microsoft YaHei", "Georgia", "Verdana", sans-serif;
 
 2. 翻译了 HTML 标签中硬编码的英文为中文。
