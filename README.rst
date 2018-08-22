@@ -15,9 +15,11 @@ Octopress Theme for Pelican 中文版
 
 2. 翻译了 HTML 标签中硬编码的英文为中文。
 
-3. 更改了主题的名字为 pelican-octopress-theme-cn
+3. 更改了主题的名字为: pelican-octopress-theme-cn
 
 由于 pelican 以及 pelican-octopress-theme 的开发并不活跃，所以我这个分支也暂并未考虑实现多语后合并回原来的主分支。
+
+4. 处理了少量时间的显示方式。
 
 案例地址：
 

@@ -8,6 +8,7 @@
       {% include '_includes/article_infos.html' %}
       {% include '_includes/sharing.html' %}
     </footer>
+    <div id="gitalk-container"></div>
   </article>
 
   {% if (DISQUS_SITENAME or ISSO_SITEURL) and SITEURL and article.status != "draft" %}
@@ -22,4 +23,7 @@
   </section>
   {% endif %}
 </div>
+
+
+
 {% endblock %}
